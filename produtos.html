@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Products - EnglishBuzzy Magazine</title>
+
+        
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <div class="box">
+        
+            <h1></h1><img src="logo.png" alt="logo englishbuzzy Magazine"></h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="profile.html">Profile</a></li>
+            </ul>
+        </nav>
+            </div>
+        </header>
+
+        <main>
+            <form>
+                <label for="name">Name</label>
+                <input type="text" id="name" required>
+
+                <label for="telephone">telephone</label>
+                <input type="text" id="telephone" required placeholder="(XX) XXXXX-XXXX">
+
+                <label for="CPF">CPF</label>
+                <input type="text" id="CPF" required>
+
+                <label for="Email">Email</label>
+                <input type="text" id="Email" required placeholder="youremail@domain.com">
+
+                <label for="Message">Message</label>
+                <textarea cols="70" rows="10" id="menssage"  class="input standard"></textarea>
+
+            <div>
+                <p>How do you prefer our contact?</p>
+                
+                <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">Email</label>
+               
+                <label for="radio-telefone"><input type="radio" name="contact" value="telephone" id="radio-telephone">
+                    telephone</label>
+               
+                <label for="radio-whatsapp"><input type="radio" name="contact" value="whatsapp" id="radio-whatsapp" checked>Whatsapp</label>
+            </div>
+                
+              <input type="submit" value="submit Form" class="to send">
+            </form>
+
+            <table>
+                <thead>
+                <tr>
+                    <th>Day</th>
+                    <th>Time</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Monday</td>
+                    <td>8h ~ 18h</td>
+                </tr>
+                <tr>
+                    <td>Wednesday</td>
+                    <td>8h ~ 18h</td>
+                </tr>
+                <tr>
+                    <td>Friday</td>
+                    <td>8h ~ 18h</td>
+                </tr>
+                </tbody>
+            </table>
+        </main>
+
+        <footer>
+            <img src="logo.gray.png" alt="logo EnglishBuzzy Magazine">
+            <p>Copyright EnglishBuzzy Magazine- 2021</p>
+        </footer>
+
+    </body>
+</html>
