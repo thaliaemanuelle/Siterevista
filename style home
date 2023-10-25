@@ -1,0 +1,44 @@
+p {
+    text-align: center;
+}
+
+body {
+    background: #CCCCCC;
+}
+
+#banner {
+    width: 100%;
+}
+
+.principal {
+    background: #CCCCCC;
+    padding: 30px;
+}
+
+.titulo-principal {
+    padding-left: 20px;
+}
+
+.titulo-centralizado {
+    text-align: center;
+}
+
+.itens {
+    font-style: italic;
+}
+
+.Benefícios {
+    background: #FFFFFF;
+    padding: 20px;
+}
+
+ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+.imagemalianças {
+    width:50%;
+}
